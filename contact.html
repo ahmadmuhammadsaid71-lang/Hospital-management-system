@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarePlus Hospital | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>CarePlus Hospital</h1>
+    <p>Contact Us</p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Get In Touch</h2>
+
+        <p><strong>Phone:</strong> +234 800 000 0000</p>
+        <p><strong>Email:</strong> info@careplushospital.com</p>
+        <p><strong>Address:</strong> CarePlus Hospital, Nigeria</p>
+    </section>
+
+    <section>
+        <h2>Appointment / Contact Form</h2>
+
+        <form id="contactForm">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option value="">Select Department</option>
+                <option value="general">General Medicine</option>
+                <option value="paediatrics">Paediatrics</option>
+                <option value="maternity">Maternity</option>
+                <option value="laboratory">Laboratory</option>
+                <option value="emergency">Emergency</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Submit</button>
+
+            <p id="formMessage"></p>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 CarePlus Hospital. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
